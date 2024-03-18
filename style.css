@@ -1,0 +1,120 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.dflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 35rem;
+  width: 70rem;
+  background-color: rgb(15, 62, 103);
+  margin-left: 13rem;
+  margin-top: 5rem;
+}
+.display {
+  height: 13rem;
+  width: 70rem;
+  background-color: black;
+}
+.sessionL {
+  height: 3rem;
+  width: 70rem;
+  background-color: rgb(52, 48, 48);
+}
+.sessL {
+  height: 6rem;
+  width: 70rem;
+  background-color: rgb(176, 159, 159);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  /* padding: 10px; */
+}
+.item1 {
+  background-color: rgb(0, 191, 255);
+  font-size: 5rem;
+  overflow: hidden;
+  color: white;
+}
+.item2 {
+  font-size: 3rem;
+  overflow: hidden;
+  color: white;
+}
+.item3 {
+  background-color: rgb(0, 191, 255);
+  font-size: 5rem;
+  color: white;
+  overflow: hidden;
+}
+.BreakL {
+  height: 3rem;
+  width: 70rem;
+
+  background-color: rgb(52, 48, 48);
+}
+.item4 {
+  background-color: rgb(0, 191, 255);
+  /* grid-column: 1/2; */
+  color: white;
+  font-size: 5rem;
+  overflow: hidden;
+}
+.item5 {
+  font-size: 3rem;
+  overflow: hidden;
+  color: white;
+}
+.item6 {
+  background-color: rgb(0, 191, 255);
+  font-size: 5rem;
+  color: white;
+  overflow: hidden;
+}
+.action {
+  height: 8rem;
+  width: 70rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(23, 220, 59);
+  overflow: hidden;
+}
+.item7 {
+  background-color: brown;
+  font-size: 5rem;
+  color: white;
+  overflow: hidden;
+}
+.item8 {
+  background-color: GREEN;
+  font-size: 5rem;
+  color: white;
+  overflow: hidden;
+}
+
+/* Text editingg......................... */
+.dis-text {
+  color: rgb(112, 105, 105);
+  padding-top: 10px;
+}
+.timerDisplay {
+  font-size: 95px;
+  color: white;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.sess-text {
+  color: rgb(112, 105, 105);
+  padding-top: 10px;
+}
+#dec {
+  font-size: 100px;
+}
+.break-text {
+  color: rgb(112, 105, 105);
+  padding-top: 10px;
+}
